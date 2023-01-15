@@ -1,0 +1,48 @@
+.outer-div {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 50px;
+}
+.inner-div {
+  width: 50%;
+  margin: auto;
+  box-shadow: 5px 5px 5px 2px cornflowerblue inset,
+    -5px -5px 5px 2px burlywood inset;
+  border-radius: 25px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form {
+  width: 40%;
+}
+.w-100p {
+  width: 100%;
+}
+.record-div {
+  margin-top: 20px;
+}
+.record-div > table > thead {
+  border: solid 2px black;
+}
+.record-div > table > thead > tr > th,
+.record-div > table > tbody > tr > td {
+  padding: 10px;
+  text-align: center;
+}
+.record-div > table > tbody > :nth-child(even) {
+  background-color: bisque;
+}
+.margin-r-3 {
+  margin-right: 5px;
+}
+button {
+  border-radius: 10px;
+  border: none;
+  padding: 5px 15px;
+  font-weight: 500;
+}
+table {
+}
